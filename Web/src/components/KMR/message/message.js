@@ -1,5 +1,5 @@
 import { createVNode,render } from "vue";
-import iMessage from './iMessage.vue'
+import iMessage from './IMessage.vue'
 const divVNode = createVNode('div',{class : 'xtx-message-container'})
 render(divVNode,document.body)
 const div = divVNode.el
