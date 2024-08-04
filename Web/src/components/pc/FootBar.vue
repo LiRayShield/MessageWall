@@ -11,7 +11,7 @@
         <div class="section links">
             <h2>友情链接</h2>
             <ul>
-                <li><a href="http://123.56.104.70/book">答案之书</a></li>
+                <li><a href="./book/index.html">答案之书</a></li>
                 <li><a href="https://weibo.com/u/7446682621">墙主 微博</a></li>
                 <li><a href="https://www.kuaishou.com/profile/3xkayqz9syw5q24">江-滨 快手</a></li>
             <!--     <li><a href="https://github.com/LiRayShield">墙主Github</a></li>

@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 主界面 */
+body,
+h1,
+p,
+button {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background.webp");
+    background-size: cover;
+
+}
+
+
+h1 {
+    animation: fadeInDown 1s ease forwards;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.answerWrap {
+    perspective: 1000px;
+    position: relative;
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.answer {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+    border-radius: inherit;
+    font-size: 25px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.answer.prev {
+    transform: translateX(-50%) rotateY(-10deg);
+}
+
+.answer.cur {
+    opacity: 1;
+    z-index: 99;
+    transform: translateX(0) rotateY(0deg);
+}
+
+.answer.next {
+    transform: translateX(50%) rotateY(10deg);
+}
+
+
+
+.answer .container {
+    color: black;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer .page {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.input p,
+.input label {
+    color: #fff;
+    font-weight: 600;
+}
+
+span {
+    color: #fff;
+}
