@@ -23,7 +23,7 @@
         <div class="section qr-code">
             <h2>支持一下</h2>
             <img src="./imges/weixin.png" alt="微信">
-            <img src="https://avatars.githubusercontent.com/u/99780300?v=4" alt="赞赏二维码">
+            <img src="./imges/zhifubao.jpg" alt="赞赏二维码">
         </div>
     </div>
 </template>
