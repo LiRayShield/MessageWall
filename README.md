@@ -18,8 +18,6 @@
 ![Alt text](https://img.5i21.cn/LightPicture/2023/07/00959330117886b2.png)
 - 将config文件夹中的walls数据库文件导入后端数据库
 ![导入数据库](https://img.5i21.cn/LightPicture/2023/07/181b36b753e22058.png)
-- 之后配置反向代理（防火墙放行）
-![配置反向代理，端口取决于config里面port参数](https://img.5i21.cn/LightPicture/2023/07/729a876ea023dfce.png)
 - 之后使用pm2持久化运行
 ![持久化运行](https://img.5i21.cn/LightPicture/2023/07/0e34b01e6645ec0a.png)
 
@@ -29,7 +27,7 @@
 - 之后npm run build构建后直接上传服务器即可使用
 
 ## 项目地址
-**Demo地址：[一刻时空-苦苦的码人](https://wall.5i21.cn/)**
+**Demo地址：[青一录 - 留下你的足迹](http://123.56.104.70/)**
 ## 项目截图
 ### PC端
 ![留言墙](https://img.5i21.cn/LightPicture/2023/02/ec3624a0132679e9.png)
