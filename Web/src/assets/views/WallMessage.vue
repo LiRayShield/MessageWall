@@ -32,7 +32,7 @@
         
         </div>
         <p class="bottom-tip" v-show="isOk == 2">
-            没有更多....
+            -我是有底线的-
         </p>
         <IModal :title="title" @close="closeModal" :isModal="isModal">
             <NewCard @clickbt="newCard" :id="ids"   @closeModal="closeModal" v-if="cardSelected == -1"></NewCard>

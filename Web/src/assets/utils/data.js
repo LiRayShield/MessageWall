@@ -4,7 +4,7 @@ export const wallType = [{
     slogan : '很多事情值得记录，当然也值得回味'
 },{
     name : '照片墙',
-    slogan : '多事情值得记录，当然也值得回味'
+    slogan : '很多事情值得记录，当然也值得回味'
 }]
 //分类标签
 export const label = [
