@@ -35,7 +35,7 @@
         
         </div>
         <p class="bottom-tip" v-show="isOk == 2">
-            没有更多....
+            -我是有底线的-
         </p>
         
         
