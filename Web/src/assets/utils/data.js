@@ -50,11 +50,11 @@ export const portrait = [
 
 export const none = [
     {
-       // url : './images/card.svg',
+        url : './assets/images/card.svg',
         msg : '还没有留言，快贴上第一张吧'
     },
     {
-       // url : './images/photo.svg',
+        url : './assets/images/photo.svg',
         msg : '还没有照片，快贴上第一张吧'
     }
 ]
